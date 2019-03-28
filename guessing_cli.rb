@@ -1,6 +1,6 @@
 # Code your solution here!
 def run_guessing_game
-puts "Please guess a number:"
+puts "Guess a number between 1 and 6."
 answer = gets.chomp
 
 until answer.downcase == "exit"
@@ -9,5 +9,5 @@ until answer.downcase == "exit"
  else
    puts "The computer guessed #{rand}."
 end
-puts "Thank you for using this program"
+puts "Goodbye!"
 end
