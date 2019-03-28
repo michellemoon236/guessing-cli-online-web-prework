@@ -8,8 +8,7 @@ if answer.to_s == random
    break
 elsif
    puts "The computer guessed #{random}."
-   puts "Guess a number between 1 and 6."
-  answer = gets.chomp
+
 end
 end
 puts "Goodbye!"
